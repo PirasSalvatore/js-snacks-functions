@@ -9,7 +9,16 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+/**
+ * preso un nome in ingresso
+ * creo una costante con l'ora attuale
+ * confronto l'ora se si trova in un range ben preciso
+ *      se compreso tra le 7(incluso) e le 13 stampi a console buongiorno + nome
+ *      se compreso tra le 13(incluso) e le 17stampi a console buon pomeriggio + nome
+ *      se compreso tra le 17(incluso) e le 24stampi a console buonasera + nome
+ *      se compreso tra le 24(incluso) e le 7 stampi a console buona notte + nome
+ * @param {String} word 
+ */
 const hello = word => {
     const hour = (new Date().getHours())
 

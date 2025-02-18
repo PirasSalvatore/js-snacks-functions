@@ -4,7 +4,17 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+/**
+ * presa una lista di nomi e una lettera di confrontro
+ * estraiamo la prima lettera di ogni nome 
+ * la confrontiamo con la lettera di confronto passata all'inizio
+ * se il nome inizia con la lettera passata allora 
+ *  inseriamo quella parola nella nuova lista
+ * restituisce la nuova lista creata
+ * @param {Array} arr lista di nomi
+ * @param {*} a lettera di confronto
+ * @returns {Array}
+ */
 const firstCharWord = (arr, a) => {
     const arrayFirstCharWord = []
     for (let i = 0; i < arr.length; i++) {

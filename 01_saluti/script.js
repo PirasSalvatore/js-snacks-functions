@@ -4,6 +4,11 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
+/**
+ * preso un nome in ingresso,
+ * stampa a console un saluto con quel nome
+ * @param {stringa} srt nome da stampare
+ */
 const hello = srt => console.log("hell0 " + srt);
 
 // Invoca la funzione qui e stampa il risultato in console
