@@ -8,7 +8,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 const firstChar = arr => {
     const arrayFirstChar = []
     for (let i = 0; i < arr.length; i++) {
-        arrayFirstChar.push((arr[i].split(""))[0])
+        const thisArrayWord = arr[i].split("")//prendo la parola,la trasformo in un array
+        const thisFirstChar = thisArrayWord[0]
+        arrayFirstChar.push(thisFirstChar)
     }
     return arrayFirstChar
 }

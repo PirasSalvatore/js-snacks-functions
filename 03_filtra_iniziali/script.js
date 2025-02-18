@@ -8,7 +8,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 const firstCharWord = (arr, a) => {
     const arrayFirstCharWord = []
     for (let i = 0; i < arr.length; i++) {
-        if (((arr[i].toLowerCase()).split(""))[0] === a) {
+        const thisArrayWord = arr[i].toLowerCase().split("")//prendo la parola,la rendo tutta minuscola,la trasformo in un array
+        const thisFirstChar = thisArrayWord[0]// seleziono la prima lettera
+        if (thisFirstChar === a) {
             arrayFirstCharWord.push(arr[i])
         }
     }
